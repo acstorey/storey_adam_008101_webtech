@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="Css/caesarCipher.css">
+<script src="cc.js" type="text/javascript"></script>
+<meta charset="UTF-8"> 
+<meta name="description" content="Caesar Cipher Site">
+<meta name="keywords" content="Caesar Cipher">
+<meta name="author" content="Adam Storey">
+</head>
+<body>
+<div id="wrapper">  <!--Wrapper to aid styling-->
+<header>
+  <img src="images/cclogo2.png" width="960" height="150" alt=""/></header>
+<nav>
+	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="rot13.html">ROT-13</a></li>
+        <li><a href="caesar.html">Caesar</a> </li>
+       
+  </ul>
+
+
+</nav>
+<section id="leftside">
+<h2 class="h1">Caesar Cipher </h2>
+    <h3>ROT-13</h3>
+    <span style="font-family: Calibri"><p>=Rot13 or other known aa Rot-13 (short for rotate 13) is a simple letter substitution encryption scheme. It works by replacing the current english letters in a message with those that are 13 positions ahead in the alphabet. E.g, the letter A is replaced by N, and B by O, C by P, and many more. Numbers and punctuation are not at all encoded.</p>
+    </span>
+    <input id="input" type="text" autofocus></input>
+        <button id="encode_button" type="button" onclick="encode()">Encode</button>
+    <div class="content">
+        <p>This is your message:</p>
+    <div id="output"><!--message--></div>
+    </div>
+    </section> 
+<section id="rightside"> 
+
+    <img src="images/cc2.png" width="278" height="250" alt="Caesar Cipher"/></section>
+    
+
+    
+    
+<footer>
+&copy; Adam Storey
+</footer>
+</div> <!--closing wrapper div-->
+   
+</body>
+</html>
